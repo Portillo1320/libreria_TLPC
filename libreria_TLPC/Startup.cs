@@ -1,4 +1,6 @@
+using libreria_TLPC.Controllers;
 using libreria_TLPC.Data;
+using libreria_TLPC.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +36,10 @@ namespace libreria_TLPC
             services.AddControllers();
             //Configurar DbContext con SQL
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
+
+            //Configurar el servicio para que pueda ser usado
+            services.AddTransient<BooksService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "libreria_TLPC", Version = "v1" });
@@ -60,6 +66,7 @@ namespace libreria_TLPC
             {
                 endpoints.MapControllers();
             });
+            AppDbInitializer.Seed(app);
         }
     }
 }
