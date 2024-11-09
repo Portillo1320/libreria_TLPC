@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("libreria_TLPC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb0115e6bc9d2134b1ef07b8067757bd751c3f31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d257c3cb07121587b0bbe4191fed29ffe511a09")]
 [assembly: System.Reflection.AssemblyProductAttribute("libreria_TLPC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("libreria_TLPC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
