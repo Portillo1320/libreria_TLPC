@@ -39,6 +39,7 @@ namespace libreria_TLPC.Data
                         CoverUrl = "https...",
                         DateAdded = DateTime.Now,
                     });
+                   
                     context.SaveChanges();
                 }
             }

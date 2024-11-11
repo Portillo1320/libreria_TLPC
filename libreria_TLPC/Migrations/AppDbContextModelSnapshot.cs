@@ -19,6 +19,21 @@ namespace libreria_TLPC.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("libreria_TLPC.Data.Models.Author", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Authors");
+                });
+
             modelBuilder.Entity("libreria_TLPC.Data.Models.Book", b =>
                 {
                     b.Property<int>("id")
@@ -63,6 +78,33 @@ namespace libreria_TLPC.Migrations
                     b.ToTable("Books");
                 });
 
+            modelBuilder.Entity("libreria_TLPC.Data.Models.Book_Author", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AuthorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PublisherId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("PublisherId");
+
+                    b.ToTable("Book_Authors");
+                });
+
             modelBuilder.Entity("libreria_TLPC.Data.Models.Publisher", b =>
                 {
                     b.Property<int>("Id")
@@ -70,9 +112,12 @@ namespace libreria_TLPC.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Publisher");
+                    b.ToTable("publishers");
                 });
 
             modelBuilder.Entity("libreria_TLPC.Data.Models.Book", b =>
@@ -86,8 +131,43 @@ namespace libreria_TLPC.Migrations
                     b.Navigation("Publisher");
                 });
 
+            modelBuilder.Entity("libreria_TLPC.Data.Models.Book_Author", b =>
+                {
+                    b.HasOne("libreria_TLPC.Data.Models.Author", "Author")
+                        .WithMany("Book_Authors")
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("libreria_TLPC.Data.Models.Book", "Book")
+                        .WithMany("Book_Authors")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("libreria_TLPC.Data.Models.Publisher", null)
+                        .WithMany("Book_Authors")
+                        .HasForeignKey("PublisherId");
+
+                    b.Navigation("Author");
+
+                    b.Navigation("Book");
+                });
+
+            modelBuilder.Entity("libreria_TLPC.Data.Models.Author", b =>
+                {
+                    b.Navigation("Book_Authors");
+                });
+
+            modelBuilder.Entity("libreria_TLPC.Data.Models.Book", b =>
+                {
+                    b.Navigation("Book_Authors");
+                });
+
             modelBuilder.Entity("libreria_TLPC.Data.Models.Publisher", b =>
                 {
+                    b.Navigation("Book_Authors");
+
                     b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
