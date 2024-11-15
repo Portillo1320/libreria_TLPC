@@ -117,7 +117,7 @@ namespace libreria_TLPC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("publishers");
+                    b.ToTable("Publishers");
                 });
 
             modelBuilder.Entity("libreria_TLPC.Data.Models.Book", b =>

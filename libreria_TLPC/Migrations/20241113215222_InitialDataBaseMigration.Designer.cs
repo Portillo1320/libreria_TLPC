@@ -10,8 +10,8 @@ using libreria_TLPC.Data;
 namespace libreria_TLPC.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241111001010_ManyToManyAdded")]
-    partial class ManyToManyAdded
+    [Migration("20241113215222_InitialDataBaseMigration")]
+    partial class InitialDataBaseMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -119,7 +119,7 @@ namespace libreria_TLPC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("publishers");
+                    b.ToTable("Publishers");
                 });
 
             modelBuilder.Entity("libreria_TLPC.Data.Models.Book", b =>

@@ -9,6 +9,6 @@ namespace libreria_TLPC.Data.Models
 
         //Propiedades de navegacion (En esta parte es donde mapeamos)
         public List<Book> Books { get; set; }
-        public List<Book_Author> Book_Authors { get; set; }
+    
     }
 }
