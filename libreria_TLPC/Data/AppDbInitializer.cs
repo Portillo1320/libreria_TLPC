@@ -25,7 +25,6 @@ namespace libreria_TLPC.Data
                         DateRead = DateTime.Now.AddDays(-10),
                         Rate = 4,
                         Genero = "Biography",
-                        Autor = "1st Author",
                         CoverUrl = "https...",
                         DateAdded = DateTime.Now,
                     },
@@ -35,7 +34,6 @@ namespace libreria_TLPC.Data
                         Descripcion = "2st Book Description",
                         IsRead = true,
                         Genero = "Biography",
-                        Autor = "1st Author",
                         CoverUrl = "https...",
                         DateAdded = DateTime.Now,
                     });
