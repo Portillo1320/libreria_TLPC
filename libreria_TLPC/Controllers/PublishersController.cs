@@ -26,6 +26,11 @@ namespace libreria_TLPC.Controllers
             var _response = _publishersServices.GetPublisherData(id);
             return Ok(_response);
         }
-
+        [HttpDelete("delete-publisher-by-id/{id}")]
+        public IActionResult DeletePublisherById(int id)
+        {
+            _publishersServices.DeletePublisherById(id);
+            return Ok();
+        }
     }
 }
