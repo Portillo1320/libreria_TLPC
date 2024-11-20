@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\data\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\data\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\data\\services\\publishersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\data\\services\\publishersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\data\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\data\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\data\\viewmodels\\publishervm .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\data\\viewmodels\\publishervm .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "libreria_TLPC\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "libreria_TLPC\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Title": "PublishersController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\PublishersController.cs",
+              "RelativeDocumentMoniker": "libreria_TLPC\\Controllers\\PublishersController.cs",
+              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\PublishersController.cs",
+              "RelativeToolTip": "libreria_TLPC\\Controllers\\PublishersController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:55:05.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BooksService.cs",
-              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Services\\BooksService.cs",
-              "RelativeDocumentMoniker": "libreria_TLPC\\Data\\Services\\BooksService.cs",
-              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Services\\BooksService.cs",
-              "RelativeToolTip": "libreria_TLPC\\Data\\Services\\BooksService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:48:39.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "libreria_TLPC\\Data\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Models\\Book.cs",
-              "RelativeToolTip": "libreria_TLPC\\Data\\Models\\Book.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:57:58.294Z",
+              "WhenOpened": "2024-11-20T03:40:20.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookVM.cs",
-              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\ViewModels\\BookVM.cs",
-              "RelativeDocumentMoniker": "libreria_TLPC\\Data\\ViewModels\\BookVM.cs",
-              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\ViewModels\\BookVM.cs",
-              "RelativeToolTip": "libreria_TLPC\\Data\\ViewModels\\BookVM.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Title": "PublishersService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "RelativeDocumentMoniker": "libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "RelativeToolTip": "libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:45:44.558Z",
+              "WhenOpened": "2024-11-20T03:25:45.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublisherVM .cs",
+              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\ViewModels\\PublisherVM .cs",
+              "RelativeDocumentMoniker": "libreria_TLPC\\Data\\ViewModels\\PublisherVM .cs",
+              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\ViewModels\\PublisherVM .cs",
+              "RelativeToolTip": "libreria_TLPC\\Data\\ViewModels\\PublisherVM .cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T03:22:02.355Z",
               "EditorCaption": ""
             }
           ]
