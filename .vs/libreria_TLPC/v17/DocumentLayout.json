@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\data\\services\\publishersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\data\\services\\publishersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +30,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PublishersService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "RelativeDocumentMoniker": "libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "RelativeToolTip": "libreria_TLPC\\Data\\Services\\PublishersService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:15:42.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PublishersController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\PublishersController.cs",
+              "RelativeDocumentMoniker": "libreria_TLPC\\Controllers\\PublishersController.cs",
+              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\PublishersController.cs",
+              "RelativeToolTip": "libreria_TLPC\\Controllers\\PublishersController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:14:46.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "libreria_TLPC\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\BooksController.cs",
               "RelativeToolTip": "libreria_TLPC\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T21:00:06.657Z",
               "EditorCaption": ""
