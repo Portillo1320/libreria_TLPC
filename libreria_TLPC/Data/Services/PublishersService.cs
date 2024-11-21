@@ -1,7 +1,9 @@
 ﻿using libreria_TLPC.Data.Models;
 using libreria_TLPC.Data.ViewModels;
+using libreria_TLPC.Exceptions;
 using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace libreria_TLPC.Data.Services
 {
@@ -17,6 +19,8 @@ namespace libreria_TLPC.Data.Services
 
         public Publisher AddPublisher(PublisherVM publisher)
         {
+            if(StringStartsWithNumber(publisher.Name)) throw new PublisherNameException("El nombre empieza con un numero",
+                publisher.Name);
             var _publisher = new Publisher()
             {
                 Name = publisher.Name
@@ -50,7 +54,13 @@ namespace libreria_TLPC.Data.Services
                 _context.Publishers.Remove(_publisher);
                 _context.SaveChanges();
             }
+            else
+            {
+                throw new Exception($"La edtora con el id: {id} no existe!");
+            }
 
         }
+        private bool StringStartsWithNumber(string name) => (Regex.IsMatch(name, @"^\d"));
+        
     }
 }

@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\data\\services\\publishersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|c:\\users\\airam\\downloads\\libreria_tlpc\\libreria_tlpc\\exceptions\\publishernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF96D1D6-896D-4A50-95D9-E3DE213DAC73}|libreria_TLPC\\libreria_TLPC.csproj|solutionrelative:libreria_tlpc\\exceptions\\publishernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublisherNameException.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Exceptions\\PublisherNameException.cs",
+              "RelativeDocumentMoniker": "libreria_TLPC\\Exceptions\\PublisherNameException.cs",
+              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Exceptions\\PublisherNameException.cs",
+              "RelativeToolTip": "libreria_TLPC\\Exceptions\\PublisherNameException.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:27:29.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -36,9 +49,9 @@
               "RelativeDocumentMoniker": "libreria_TLPC\\Data\\Services\\PublishersService.cs",
               "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Data\\Services\\PublishersService.cs",
               "RelativeToolTip": "libreria_TLPC\\Data\\Services\\PublishersService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:15:42.102Z",
+              "WhenOpened": "2024-11-21T03:23:25.266Z",
               "EditorCaption": ""
             },
             {
@@ -49,22 +62,9 @@
               "RelativeDocumentMoniker": "libreria_TLPC\\Controllers\\PublishersController.cs",
               "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\PublishersController.cs",
               "RelativeToolTip": "libreria_TLPC\\Controllers\\PublishersController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBwAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T21:14:46.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "libreria_TLPC\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\airam\\Downloads\\libreria_TLPC\\libreria_TLPC\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "libreria_TLPC\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:00:06.657Z",
               "EditorCaption": ""
             }
           ]
